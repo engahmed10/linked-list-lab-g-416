@@ -23,7 +23,6 @@ function nodeAt(index,node,collection){
 
               if(index == 0){
                 console.log(`curr`,node)
-
                  return collection[node]
               }else{
                   //  node=next(node,collection)
