@@ -23,10 +23,10 @@ function nodeAt(index,node,collection){
 
         node=next(node,collection)
           if(node == undefined){
-            console.log(node)
+             return collection[node]
       }
     //  }
-         return collection[node]
+        
 
 }
 
