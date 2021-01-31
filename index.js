@@ -42,5 +42,5 @@ function  indexAt(address,node,collection){
 
   //}
     index   = addressAt(address,node,collection)
-  return node[index]
+  return index
 }
