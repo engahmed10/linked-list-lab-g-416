@@ -38,5 +38,5 @@ function addressAt(address,linkedlist,collection){
 
 function  indexAt(node,collection,linkedList){
 
-  return collection.length //[linkedList]
+  return collection.size //[linkedList]
 }
