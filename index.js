@@ -23,8 +23,11 @@ function nodeAt(index,node,collection){
               if(index == 0){
                  return collection[node]
               }else{
-
-                return collection[collection[collection[node].next].next]
+                for(let i=0;i<index;i++){
+                       node=collection[node].next
+                 }
+                //return collection[collection[collection[node].next].next]
+              return   collection[node]
               }
 }
 
