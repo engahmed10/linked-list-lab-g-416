@@ -41,6 +41,6 @@ function  indexAt(address,node,collection){
   //for(let i=0;i<;i++){
 
   //}
-  let   index   = addressAt(address,node,collection)
-  return index
+  
+  return collection[node]
 }
