@@ -20,8 +20,11 @@ function next(node,collection){
 
 function nodeAt(index,node,collection){
       //for(let i=0; i < index;i++){
+
         node=next(node,collection)
-        console.log(node)
+          if(node == undefined){
+            console.log(node)
+      }
     //  }
          return collection[node]
 
