@@ -12,7 +12,7 @@ function headNode(node,collection){
 
 function next(node,collection){
 
-  
+
     let nextnode  = node.next
    return collection[nextnode]
 }
