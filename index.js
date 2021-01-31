@@ -42,5 +42,5 @@ function  indexAt(node,collection,linkedList){
       // return i
   //   }
 //  }
-  return node
+  return collection[name]
 }
