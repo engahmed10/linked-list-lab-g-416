@@ -54,9 +54,6 @@ function insertNodeAt(index,newLinkedList,linkedList,collection){
     //  linkedList = linkedList.next
 
    }
-   console.log(`index`,index)
-   console.log(`newLinkedList`,newLinkedList)
-   console.log(`linkedList`,linkedList)
-   console.log(`collection`,collection)
+
 
 }
