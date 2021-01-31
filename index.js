@@ -12,7 +12,7 @@ function headNode(node,collection){
 
 function next(node,collection){
 
-  console.log(node)
+  
     let nextnode  = node.next
    return collection[nextnode]
 }
@@ -21,6 +21,7 @@ function next(node,collection){
 function nodeAt(index,node,collection){
       //for(let i=0; i < index;i++){
         node=next(node,collection)
+        console.log(node)
     //  }
          return collection[node]
 
