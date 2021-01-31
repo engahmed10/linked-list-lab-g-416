@@ -36,10 +36,11 @@ function addressAt(address,node,collection){
 }
 
 
-function  indexAt(node){
+function  indexAt(address,node,collection){
 
   //for(let i=0;i<;i++){
 
   //}
+    index   = addressAt(address,node,collection)
   return node[index]
 }
