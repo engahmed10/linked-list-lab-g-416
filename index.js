@@ -34,3 +34,12 @@ function addressAt(address,node,collection){
     }
   return node
 }
+
+
+function  indexAt(node){
+
+  //for(let i=0;i<;i++){
+    
+  //}
+  return node[index]
+}
