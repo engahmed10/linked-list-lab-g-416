@@ -38,5 +38,5 @@ function addressAt(address,linkedlist,collection){
 
 function  indexAt(node,collection){
 
-  return collection//[node]
+  return collection[node]
 }
