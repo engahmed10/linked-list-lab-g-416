@@ -23,7 +23,7 @@ function nodeAt(index,linkedlist,collection){
     for(let i=0;i<index;i++){
            linkedlist=collection[linkedlist].next
      }
-    return   collection[node]
+    return   collection[linkedlist]
 
 }
 
