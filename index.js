@@ -51,7 +51,7 @@ function insertNodeAt(index,newLinkedList,linkedList,collection){
      if(collection[linkedList] == linkedList){
         newLinkedList.next = linkedList
      }
-    //  linkedList = linkedList.next
+      linkedList = linkedList.next
 
    }
 
