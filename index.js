@@ -18,10 +18,10 @@ function next(linkedlist,collection){
 }
 
 
-function nodeAt(index,node,collection){
+function nodeAt(index,linkedlist,collection){
 
     for(let i=0;i<index;i++){
-           node=collection[node].next
+           node=collection[linkedlist].next
      }
     return   collection[node]
 
