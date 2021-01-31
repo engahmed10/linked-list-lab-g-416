@@ -28,6 +28,6 @@ function nodeAt(index,node,collection){
 }
 
 
-function addressAt(address,collection){
+function addressAt(address,node,collection){
   return collection
 }
