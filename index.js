@@ -29,6 +29,8 @@ function nodeAt(index,node,collection){
 
 
 function addressAt(address,node,collection){
-
+   for(let i=0;i< address;i++){
+     node=collection[node].next
+   }
   return collection[address]
 }
