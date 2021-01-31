@@ -52,6 +52,11 @@ function insertNodeAt(index,newLinkedList,linkedList,collection){
     for(let i=0; i<index ;i++){
        linkedList = collection[linkedList].next
      }
-     collection[newLinkedList].next=linkedList  ///next node
-     priveous.next= newLinkedList  //previous node 
+     collection[newLinkedList].next=linkedList  ///new node connct to next node
+     priveous.next= newLinkedList  //previous node connect to new node
+}
+
+function deleteNodeAt(){
+
+
 }
