@@ -48,5 +48,5 @@ function  indexAt(node,collection,linkedList){
 
 function insertNodeAt(){
 
-  
+
 }
