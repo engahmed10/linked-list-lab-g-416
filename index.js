@@ -4,16 +4,16 @@ function getName(node){
 }
 
 
-function headNode(node,collection){
+function headNode(linkedlist,collection){
 
-       return  collection[node]
+       return  collection[linkedlist]
 
 }
 
-function next(node,collection){
+function next(linkedlist,collection){
 
 
-    let nextnode  = node.next
+    let nextnode  = linkedlist.next
    return collection[nextnode]
 }
 
@@ -37,10 +37,6 @@ function addressAt(address,node,collection){
 
 
 function  indexAt(node,collection){
-
-  //for(let i=0;i<;i++){
-
-  //}
 
   return collection[node]
 }
