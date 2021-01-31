@@ -47,17 +47,16 @@ function  indexAt(node,collection,linkedList){
 
 
 function insertNodeAt(index,newLinkedList,linkedList,collection){
-  // for(let i=0; i<index ;i++){
+   for(let i=0; i<index ;i++){
     // if(collection[linkedList] == newLinkedList){
-      //   linkedList.next = newLinkedList
+        newLinkedList.next = newLinkedList
     // }
     //  linkedList = linkedList.next
 
-  // }
+   }
    console.log(`index`,index)
    console.log(`newLinkedList`,newLinkedList)
    console.log(`linkedList`,linkedList)
    console.log(`collection`,collection)
 
-   //return linkedList
 }
