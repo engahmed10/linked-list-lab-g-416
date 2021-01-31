@@ -24,7 +24,7 @@ function nodeAt(index,node,collection){
                        node=collection[node].next
                  }
                 return   collection[node]
-    
+
 }
 
 
