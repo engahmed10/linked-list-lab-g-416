@@ -30,9 +30,9 @@ function nodeAt(index,linkedlist,collection){
 
 function addressAt(address,linkedlist,collection){
    for(let i=0;i< address;i++){
-      node=collection[linkedlist].next
+      linkedlist=collection[linkedlist].next
     }
-  return node
+  return linkedlist
 }
 
 
