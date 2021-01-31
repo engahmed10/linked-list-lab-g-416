@@ -48,6 +48,6 @@ function  indexAt(node,collection,linkedList){
 
 function insertNodeAt(node,collection,lo){
 
-return lo
+//return lo
 
 }
