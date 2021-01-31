@@ -13,7 +13,7 @@ function headNode(linkedlist,collection){
 function next(linkedlist,collection){
 
 
-    let linkedlist  = linkedlist.next
+     linkedlist  = linkedlist.next
    return collection[linkedlist]
 }
 
