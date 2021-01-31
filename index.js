@@ -37,10 +37,6 @@ function addressAt(address,linkedlist,collection){
 
 
 function  indexAt(node,collection,linkedList){
-  //for(let i=0;i<collection.length;i++){
-    // if(collection[i] == node ){
-      // return i
-  //   }
-//  }
-  return collection[linkedList]
+
+  return collection.length //[linkedList]
 }
