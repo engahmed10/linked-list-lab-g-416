@@ -20,10 +20,10 @@ function next(node,collection){
 
 function nodeAt(index,node,collection){
 
-                for(let i=0;i<index;i++){
-                       node=collection[node].next
-                 }
-                return   collection[node]
+    for(let i=0;i<index;i++){
+           node=collection[node].next
+     }
+    return   collection[node]
 
 }
 
