@@ -17,9 +17,11 @@ function next(node,collection){
 
 
 function nodeAt(index,node,collection){
-    if(index){
+      for(let i=0;i < index;i++){
+        node=next(node)
+      }
          return collection[node]
-    }
+
 
 
 }
