@@ -41,7 +41,7 @@ function  indexAt(node,collection,linkedList){
      if(collection[linkedList] == node ){
        return i
      }
-    linkedlist= collection[linkedList].next
+    linkedList= collection[linkedList].next
 
   }
 }
