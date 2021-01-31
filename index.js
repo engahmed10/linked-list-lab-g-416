@@ -44,6 +44,3 @@ function  indexAt(node,collection,linkedList){
     linkedList= collection[linkedList].next
   }
 }
-
-
-
