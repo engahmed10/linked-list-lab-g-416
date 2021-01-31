@@ -28,7 +28,7 @@ function nodeAt(index,node,collection){
               }else{
                     node=next(node,collection)
                     console.log(`next`,node)
-                    return collection[node]
+                    return collection[node.next]
               }
 
     //  }
