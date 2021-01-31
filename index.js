@@ -17,10 +17,10 @@ function next(node,collection){
 
 
 function nodeAt(index,node,collection){
-    for(let i=0;i<node ;i++){
-          
+    for(let i=0;i<index ;i++){
+         return collection[node]    
     }
-      return collection[node]
+    
 
 }
 function addressAt(collection){
