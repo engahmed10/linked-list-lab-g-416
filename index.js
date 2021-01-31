@@ -19,13 +19,13 @@ function next(node,collection){
 
 
 function nodeAt(index,node,collection){
-      //for(let i=0; i < index;i++){
+      for(let i=0; i < index;i++){
 
         node=next(node,collection)
           if(node == undefined){
              return collection[node]
           }
-    //  }
+      }
 
 
 }
