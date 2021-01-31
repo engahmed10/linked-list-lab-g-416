@@ -21,9 +21,9 @@ function next(node,collection){
 function nodeAt(index,node,collection){
       for(let i=0; i < index;i++){
 
-          if(node == undefined){
+        //  if(node == undefined){
              return collection[next(node,collection)]
-          }
+        //  }
       }
 
 
