@@ -64,7 +64,7 @@ function deleteNodeAt(index,linkedList,collection){
 // previous.next = collection[linkedList].next
 let next =nodeAt((index+1),linkedList,collection)
 
- collection[linkedList].next =
+ collection[linkedList].next = next
 
 
 }
