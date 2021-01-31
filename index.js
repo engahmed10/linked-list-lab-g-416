@@ -29,5 +29,6 @@ function nodeAt(index,node,collection){
 
 
 function addressAt(address,node,collection){
-  return collection
+
+  return collection[address]
 }
