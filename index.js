@@ -54,6 +54,4 @@ function insertNodeAt(index,newLinkedList,linkedList,collection){
      }
        collection[newLinkedList].next = linkedList
        collection[linkedList].next = newLinkedList
-
-
 }
