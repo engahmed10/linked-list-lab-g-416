@@ -24,7 +24,7 @@ function nodeAt(index,node,collection){
         node=next(node,collection)
           if(node == undefined){
              return collection[node]
-      }
+          }
     //  }
 
 
