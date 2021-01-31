@@ -60,5 +60,7 @@ function deleteNodeAt(index,linkedlist,collection){
  for(let i=0 ;i<index;i++){
    collection[linkedlist].next=linkedlist
  }
+ let priveous =nodeAt((index),linkedList,collection)
+
 
 }
