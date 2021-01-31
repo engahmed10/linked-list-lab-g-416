@@ -46,8 +46,8 @@ function  indexAt(node,collection,linkedList){
 }
 
 
-function insertNodeAt(node,collection){
+function insertNodeAt(node,collection,lo){
 
-return collection
+return lo
 
 }
