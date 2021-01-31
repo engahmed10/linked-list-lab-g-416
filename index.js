@@ -17,7 +17,10 @@ function next(node,collection){
 
 
 function nodeAt(index,node,collection){
-
+    //  node[index]
       return collection[node]
 
+}
+function addressAt(collection){
+  return adddress
 }
