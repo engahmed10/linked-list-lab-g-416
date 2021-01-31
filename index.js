@@ -19,9 +19,9 @@ function next(linkedlist,collection){
 
 
 function nodeAt(index,linkedlist,collection){
- let node;
+ 
     for(let i=0;i<index;i++){
-           node=collection[linkedlist].next
+           linkedlist=collection[linkedlist].next
      }
     return   collection[node]
 
