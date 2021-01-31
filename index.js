@@ -22,9 +22,10 @@ function nodeAt(index,node,collection){
     //  for(let i=0; i <= index;i++){
 
               if(index == 0){
-                node=next(node,collection)
-              }else{
                  return collection[node]
+              }else{
+                node=next(node,collection)
+
               }
 
     //  }
