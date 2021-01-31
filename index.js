@@ -20,14 +20,11 @@ function next(node,collection){
 
 function nodeAt(index,node,collection){
 
-            //  if(index == 0){
-              //   return collection[node]
-            //  }else{
                 for(let i=0;i<index;i++){
                        node=collection[node].next
                  }
-              return   collection[node]
-            //  }
+                return   collection[node]
+    
 }
 
 
