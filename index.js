@@ -36,7 +36,7 @@ function addressAt(address,node,collection){
 }
 
 
-function  indexAt(address,node,collection){
+function  indexAt(node,collection){
 
   //for(let i=0;i<;i++){
 
