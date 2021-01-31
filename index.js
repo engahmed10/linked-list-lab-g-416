@@ -39,7 +39,7 @@ function addressAt(address,node,collection){
 function  indexAt(node){
 
   //for(let i=0;i<;i++){
-    
+
   //}
   return node[index]
 }
