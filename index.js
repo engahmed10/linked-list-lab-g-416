@@ -42,6 +42,8 @@ function  indexAt(node,collection,linkedList){
        return i
      }
     linkedList= collection[linkedList].next
-
   }
 }
+
+
+
