@@ -22,6 +22,7 @@ function nodeAt(index,node,collection){
     //  for(let i=0; i <= index;i++){
 
               if(index == 0){
+                console.log(`curr`,collection[node])
                  return collection[node]
               }else{
 
