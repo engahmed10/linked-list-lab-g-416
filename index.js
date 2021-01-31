@@ -57,7 +57,7 @@ function insertNodeAt(index,newLinkedList,linkedList,collection){
 }
 
 function deleteNodeAt(index,linkedList,collection){
- for(let i=0 ;i<index;i++){
+ for(let i=0 ;i<index+1;i++){
    collection[linkedList].next=linkedList
  }
  let previous =nodeAt((index-1),linkedList,collection)
