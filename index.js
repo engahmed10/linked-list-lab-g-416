@@ -47,7 +47,7 @@ function  indexAt(node,collection,linkedList){
 
 
 function insertNodeAt(index,newLinkedList,linkedList,collection){
-   let priveous =nodeAt(index,linkedlist,collection)
+   let priveous =nodeAt((index-1),linkedlist,collection)
     for(let i=0; i<index ;i++){
        linkedList = collection[linkedList].next
      }
