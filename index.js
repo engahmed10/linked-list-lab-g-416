@@ -56,7 +56,9 @@ function insertNodeAt(index,newLinkedList,linkedList,collection){
      priveous.next= newLinkedList  //previous node connect to new node
 }
 
-function deleteNodeAt(){
-
+function deleteNodeAt(index,linkedlist,collection){
+ for(let i=0 ;i<index;i++){
+   collection[linkedlist].next=linkedlist
+ }
 
 }
